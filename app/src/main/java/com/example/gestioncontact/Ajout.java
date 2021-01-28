@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import androidx.core.content.ContextCompat;
 
 import java.util.ArrayList;
 
@@ -24,6 +25,8 @@ public class Ajout extends AppCompatActivity {
         ednum=findViewById(R.id.ednum_ajout);
         btnqte=findViewById(R.id.btnqte_ajout);
         btnval=findViewById(R.id.btnval_ajout);
+        btnqte.setBackgroundColor(ContextCompat.getColor(this, R.color.swatch1));
+        btnval.setBackgroundColor(ContextCompat.getColor(this, R.color.swatch1));
         btnqte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

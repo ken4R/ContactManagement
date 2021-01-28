@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="15dp"
-    android:background="@color/white"
+              android:background="@drawable/gradient"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         style="@style/st_titre1"
+        android:textColor="#fff"
         android:text="Authentification" />
 
     <EditText
@@ -19,13 +19,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textColor="#FFF"
         android:hint="Saisir votre nom"
+        android:paddingLeft="16sp"
+        android:paddingRight="16dp"
         android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/edpass_auth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:paddingLeft="16sp"
+        android:paddingRight="16dp"
         android:ems="10"
         android:hint="Saisir votre mot de passe "
         android:inputType="numberPassword" />

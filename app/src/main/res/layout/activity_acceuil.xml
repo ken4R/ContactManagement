@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
+              android:background="@drawable/gradient"
     tools:context=".Acceuil">
 
     <TextView
@@ -16,19 +17,19 @@
         android:paddingBottom="50dp"
         android:text="Acceuil"
         android:textAlignment="center"
-        android:textColor="#E91E63"
+        android:textColor="#fff"
         android:textSize="24sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnajout_acc"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Ajout" />
 
     <Button
         android:id="@+id/btnaff_acc"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="affichage" />
 </LinearLayout>

@@ -12,6 +12,7 @@
         style="@style/st_titre1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#fff"
         android:text="Affichage" />
 
     <EditText

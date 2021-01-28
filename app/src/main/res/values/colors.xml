@@ -8,4 +8,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="rouge">#E80707</color>
+    <color name="swatch1">#bab8fb</color>
+    <color name="swatch2">#eae1ff</color>
+    <color name="swatch3">#f0abe5</color>
+    <color name="swatch4">#f56892</color>
+
+
+
+
 </resources>

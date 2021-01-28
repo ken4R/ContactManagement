@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import androidx.core.content.ContextCompat;
 
 public class MainActivity extends AppCompatActivity {
     //declaration de composants
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         ednom=findViewById(R.id.ednom_auth);
         btnval=findViewById(R.id.btnval_auth);
         btnqt=findViewById(R.id.btnqte_auth);
+        btnqt.setBackgroundColor(ContextCompat.getColor(this, R.color.swatch1));
+        btnval.setBackgroundColor(ContextCompat.getColor(this, R.color.swatch1));
 
         //ecouteurs dactions
         btnqt.setOnClickListener(new View.OnClickListener() {

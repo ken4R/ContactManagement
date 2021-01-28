@@ -41,6 +41,9 @@ public class Acceuil extends AppCompatActivity {
         btnajout=findViewById(R.id.btnajout_acc);
         btnaff=findViewById(R.id.btnaff_acc);
 
+        btnaff.setBackgroundColor(ContextCompat.getColor(this, R.color.swatch1));
+        btnajout.setBackgroundColor(ContextCompat.getColor(this, R.color.swatch1));
+
         Intent x = this.getIntent();
         Bundle b=x.getExtras(); //bundle est un stock de donnees
         String u=b.getString("USER");

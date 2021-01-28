@@ -7,12 +7,14 @@
     android:layout_gravity="center_horizontal"
     android:gravity="center_horizontal"
     android:orientation="vertical"
+              android:background="@drawable/gradient"
     tools:context=".Ajout">
 
     <TextView
         style="@style/st_titre1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#fff"
         android:text="Ajout" />
 
     <EditText
@@ -20,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textColor="#fff"
         android:hint="Saisir votre nom"
         android:inputType="textPersonName" />
 
@@ -28,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textColor="#fff"
         android:hint="Saisir votre prenom"
         android:inputType="textPersonName" />
 
@@ -36,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textColor="#fff"
         android:hint="Saisir votre numero"
         android:inputType="phone" />
 
